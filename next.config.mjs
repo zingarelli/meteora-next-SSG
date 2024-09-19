@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", // export estático de HTML/CSS/JS
+  output: "export", // export estático de HTML/CSS/JS,
+  // basePath: "/meteora-teste-static-export", // descomente para deploy no github pages
+  // assetPrefix: "/meteora-teste-static-export/", // descomente para deploy no github pages
   trailingSlash: true, // adiciona um index.html para cada subdiretorio de rota
   images: {
     // remotePatterns: [
